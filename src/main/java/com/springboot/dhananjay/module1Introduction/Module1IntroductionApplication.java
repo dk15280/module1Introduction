@@ -17,11 +17,11 @@ import java.util.Map;
 public class Module1IntroductionApplication implements CommandLineRunner {
 	@Autowired
 	//paymentService paymentservice;
-    // final Notification notificationObj; //--> Dependency injection happened here
-	//Module1IntroductionApplication(Notification notificationObj) //Constructor dependency Injection
-	//{
-	 //   this.notificationObj=notificationObj;
-	//}
+    /* final Notification notificationObj; //--> Dependency injection happened here
+	Module1IntroductionApplication(Notification notificationObj) //Constructor dependency Injection
+	{
+	    this.notificationObj=notificationObj;
+	} */
 	final Map<String, Notification> notificationMap = new HashMap<>();
 	public static void main(String[] args) {
 		SpringApplication.run(Module1IntroductionApplication.class, args);
